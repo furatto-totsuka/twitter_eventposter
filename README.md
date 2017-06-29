@@ -1,0 +1,2 @@
+# twitter_eventposter
+Twitterアカウントにイベント情報をポストします。
