@@ -16,6 +16,9 @@ function main() {
       var mark = "";
       var time = "";
       var title = "";
+      if(t.indexOf("中止") >= 0){
+        continue;
+      }
       if(["■", "◇", "◆"].indexOf(t.charAt(0)) >= 0)
       {
         mark =  t.charAt(0);
